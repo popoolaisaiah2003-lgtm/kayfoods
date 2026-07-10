@@ -20,10 +20,10 @@ createRoot(document.getElementById('root')).render(
     {/* <Layout /> */}
     {/* <Blogger /> */}
 
-    {/* <ProductProvider>
+    <ProductProvider>
        <Invento />
-    </ProductProvider> */}
+    </ProductProvider>
 
-    <Meal />
+    {/* <Meal /> */}
   </StrictMode>,
 )
