@@ -1,0 +1,17 @@
+name : a test workflow 
+
+on:
+    push: 
+        branches: ["main"]
+
+jobs: 
+    testing-testing:
+        runs-on: ubuntu-latest
+        steps:
+            #step 1
+            - name: welcome people
+              run: echo "Hello, welcome to the test workflow!"
+            #step 2
+            - name: tell people goodbye
+              run: echo "Goodbye, see you next time!"
+    
